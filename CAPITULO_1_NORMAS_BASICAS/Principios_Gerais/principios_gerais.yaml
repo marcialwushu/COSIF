@@ -1,0 +1,79 @@
+principios_gerais:
+  criterios_instituicoes:
+    resolucao: "CMN nº 4.924, de 24 de junho de 2021"
+    aplicacao:
+      - "Reconhecimento, mensuração, escrituração e evidenciação contábeis"
+    excecoes:
+      - "Administradoras de consórcio"
+      - "Instituições de pagamento"
+  reconhecimento_mensuracao:
+    pronunciamentos_cpc:
+      - "CPC 00 (R2) - Estrutura Conceitual para Relatório Financeiro"
+      - "CPC 01 (R1) - Redução ao Valor Recuperável de Ativos"
+      - "CPC 23 - Políticas Contábeis, Mudança de Estimativa e Retificação de Erro"
+      - "CPC 46 - Mensuração do Valor Justo"
+      - "CPC 47 - Receita de Contrato com Cliente"
+    restricoes:
+      - "Demonstrações contábeis combinadas apenas conforme regulamentação específica"
+      - "Receita de quebra em passivo reconhecida somente após extinção efetiva"
+      - "Aplicação do item 29, alínea 'a' de CPC 47 vedada"
+  transacoes_moeda_estrangeira:
+    criterios:
+      - "Conversão na data da transação pela taxa de câmbio à vista"
+      - "Avaliação periódica pelo valor justo"
+    ajustes:
+      - "Registros em patrimônio líquido para itens não monetários"
+      - "Resultados para demais casos"
+    metodologia:
+      - "Metodologia robusta e consistente"
+      - "Histórico de dados público e acessível"
+  escrituracao_contabil:
+    requisitos:
+      - "Completa, permanente, e em idioma e moeda nacional"
+      - "Efetuada até o dia 10 do mês subsequente"
+      - "Elaborada cronologicamente"
+    registros:
+      - "Inclui data, local, rubricas, históricos e valores"
+    controles:
+      - "Conciliações periódicas e documentação arquivada por 1 ano"
+    digital:
+      - "Validação por listagens eletrônicas"
+    livros_obrigatorios:
+      - "Diário e Razão ou Balancetes Diários e Balanços"
+      - "Históricos elucidativos e termos assinados por contador habilitado"
+  disposicoes_finais:
+    penalidades:
+      - "Informações inexatas ou escrituração em atraso superiores a 15 dias"
+    diretor_responsavel:
+      - "Nomeação obrigatória perante o Banco Central"
+      - "Responsável por conformidade e precisão"
+    exercicio_social:
+      - "Encerramento em 31 de dezembro"
+  administradoras_consorcio:
+    resolucao: "BCB nº 120, de 12 de julho de 2021"
+    criterios:
+      - "Reconhecimento, mensuração e evidenciação conforme CPCs aplicáveis"
+    moeda_estrangeira:
+      criterios:
+        - "Conversão pela taxa de câmbio à vista informada pelo Banco Central"
+        - "Possibilidade de taxa alternativa, se justificada"
+    escrituracao:
+      requisitos:
+        - "Inclusão de documentos comprovantes e registros detalhados"
+        - "Arquivamento mínimo por 1 ano"
+        - "Livros contábeis mantidos eletronicamente ou fisicamente"
+    penalidades:
+      - "Atrasos superiores a 15 dias e informações incorretas sujeitam a sanções"
+  procedimentos:
+    taxa_cambio_alternativa:
+      criterios:
+        - "Histórico de dados de 5 anos"
+        - "Acesso público e metodologia consistente"
+        - "Divulgação por entidade autorizada"
+      alteracao:
+        - "Definida no início do exercício social e não alterável no período"
+    documentacao:
+      - "Manutenção por 5 anos ou conforme especificação legal"
+      - "Registro no sistema Unicad com informações atualizadas"
+    compliance:
+      - "Declaração assinada pelo diretor responsável disponível ao Banco Central"
