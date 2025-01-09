@@ -1,0 +1,70 @@
+cosif:
+  obrigatoriedade:
+    resolucoes:
+      - cmn: "4.858"
+        data: "23/10/2020"
+      - bcb: "92"
+        data: "06/05/2021"
+    descricao: "Estabelece o Padrão Contábil das Instituições Reguladas pelo Banco Central do Brasil (Cosif)."
+
+  objetivo_estrutura:
+    resolucoes:
+      - cmn: "4.858"
+        data: "23/10/2020"
+      - bcb: "92"
+        data: "06/05/2021"
+    descricao: "Consolidação das normas contábeis e elenco de contas para instituições reguladas."
+    objetivo:
+      - uniformizar: "Registros contábeis e procedimentos."
+      - racionalizar: "Utilização de contas."
+      - estabelecer_regras: "Regras e procedimentos para informações contábeis e financeiras."
+      - supervisao: "Prover informações para supervisão e controle."
+    estrutura:
+      capitulos:
+        - capitulo: "1"
+          descricao: "Normas Básicas"
+        - capitulo: "2"
+          descricao: "Elenco de Contas"
+        - capitulo: "3"
+          descricao: "Modelos"
+        - capitulo: "4"
+          descricao: "Documentos Complementares"
+
+  elenco_contas:
+    descricao: "Utilização de elenco de contas próprio definido pelo Banco Central."
+    tipos:
+      - patrimoniais: "Ativos, passivos e patrimônio líquido."
+      - resultado: "Receitas e despesas."
+      - compensacao:
+          - eventos: "Informações sobre modificações futuras no patrimônio."
+          - controle: "Controle patrimonial e de resultados."
+    estrutura:
+      - codigo: "Definido pelo BCB."
+      - nomenclatura: "Nome das contas."
+      - funcao: "Função específica de cada conta."
+    regras:
+      - modificacoes: "Vedada a modificação da estrutura das rubricas contábeis."
+      - desdobramentos: "Permitido para controle interno, desde que conversíveis ao nível analítico."
+
+  rubricas_contabeis:
+    niveis:
+      - grupo_contabil: "1 dígito"
+      - subgrupo_contabil: "1 dígito"
+      - desdobramento_subgrupo: "1 dígito"
+      - titulo_contabil: "2 dígitos"
+      - subtitulo_contabil: "2 dígitos"
+    digito_controle:
+      calculo:
+        - multiplicacao: "Cada algarismo multiplicado por 3, 7, 1, alternadamente."
+        - soma: "Soma dos resultados."
+        - divisao: "Divisão do total por 10."
+        - subtracao: "Subtração do resto de 10."
+      regra_zero: "Se o resto for zero, o dígito de controle é zero."
+    escrituração:
+      restricoes:
+        - autorizado: "Apenas operações autorizadas podem ser escrituradas."
+        - lider_conglomerado: "Usar rubricas aplicáveis no consolidado."
+      definicoes:
+        - denor:
+            - restricoes: "Definir rubricas não aplicáveis a determinados segmentos."
+            - codigos: "Definir códigos e nomenclaturas das rubricas."
