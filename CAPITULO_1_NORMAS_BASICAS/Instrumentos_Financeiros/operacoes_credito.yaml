@@ -1,0 +1,56 @@
+instrumentos_financeiros:
+  2.5_operacoes_credito:
+    classificacao_operacoes_credito:
+      - "1": "Na classificacao das operacoes de credito, pelos diversos titulos contabeis, deve-se ter em conta:"
+        detalhes:
+          - "a": "a aplicacao dada aos recursos, por tipo ou modalidade de operacao;"
+          - "b": "a atividade predominante do tomador do credito."
+
+      - "2": "As operacoes de credito distribuem-se segundo as seguintes modalidades:"
+        modalidades:
+          - "a": "emprestimos - operacoes realizadas sem destinacao especifica ou vinculo;"
+          - "b": "titulos descontados - operacoes de desconto de titulos;"
+          - "c": "financiamentos - operacoes realizadas com destinacao especifica e comprovacao."
+
+      - "3": "Em operacoes de repasse, a instituicao pode registrar segundo a origem dos recursos."
+      - "4": "As aplicacoes devem ser segregadas segundo a atividade predominante do tomador."
+      - "5": "Saldos credores em contas de emprestimo devem ser inscritos em 'Saldos Credores'."
+      - "6": "Operacoes de credito rural alongadas devem ser reclassificadas conforme Res. CMN 2238."
+      - "7": "Recebimentos em produto das parcelas devem ser registrados em 'Depositarios de Valores em Custodia'."
+
+    financiamentos_moedas_estrangeiras:
+      - "1": "Financiamentos a importacoes sao registrados considerando a operacao de cambio:"
+        situacoes:
+          - "a": "Quando nao celebrada: registra-se em 'Financiamentos em Moedas Estrangeiras'."
+          - "b": "Quando celebrada: registra-se diretamente em 'Importacao Financiada'."
+
+    classificacao_risco_provisionamento:
+      - "1": "As operacoes devem ser classificadas por nivel de risco (AA, A, B, ... H)."
+      - "2": "Classificacao deve considerar devedor, garantidores e caracteristicas da operacao."
+      - "3": "Operacoes de mesmo cliente/grupo economico sao definidas pelo maior risco."
+      - "4": "Revisao de classificacao:"
+        periodicidade:
+          - "a": "Mensalmente em balancetes e balancos;"
+          - "b": "A cada 6 meses para operacoes >5% do patrimonio liquido;"
+          - "c": "A cada 12 meses em outros casos."
+
+    disposicoes_gerais:
+      - "1": "Comissao de abertura de credito deve ser registrada em 'Rendas Antecipadas'."
+      - "2": "Composicoes de dividas de operacoes devem ser mantidas no mesmo subgrupo."
+      - "3": "Operacoes de credito em consorcio sao registradas proporcionalmente."
+      - "4": "Instituicoes financeiras devem ajustar contratos de mutuo de ouro mensalmente."
+
+  2.6_outros_creditos:
+    rendas_receber:
+      - "1": "Rendas nao vinculadas a Operacoes de Credito devem ser registradas em 'Rendas a Receber'."
+      - "2": "Instituicao deve manter controles para identificar natureza, devedores e vencimentos."
+
+    avais_fiancas:
+      - "1": "Creditos decorrentes de avais e fiancas sao registrados em 'Avais e Fiancas Honrados'."
+      - "2": "Rendas de comissoes nao recebidas sao registradas em 'Comissoes por Coobrigaçoes a Receber'."
+      - "3": "Comissoes antecipadas sao registradas em 'Rendas Antecipadas'."
+      - "4": "Comissoes a receber sao transferidas para 'Creditos por Avais e Fiancas Honrados'."
+      - "5": "Creditos devem seguir normas previstas para operacoes de credito."
+
+    classificacao_outros_creditos:
+      - "1": "Classificacao e provisionamento devem seguir normas do capitulo 'Operacoes de Credito'."
