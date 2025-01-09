@@ -1,0 +1,65 @@
+instrumentos_financeiros:
+  relacoes_interfinanceiras_e_interdependencias:
+    servico_compensacao_cheques_outros_papeis:
+      - compensacao_pagamentos:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "os cheques e outros papéis apresentados à instituição sacada registram-se a débito das contas adequadas, com a mesma data da sessão de troca"
+              - "os cheques e documentos recebidos em devolução registram-se na data de sua ocorrência"
+      - compensacao_recebimentos:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "ressalvado o disposto nos incisos I e II, o expediente para recebimento de cobranças liquidáveis pelo Serviço de Compensação encerra-se em horário que permita o encaminhamento das fichas no mesmo dia"
+              - "as fichas de compensação relativas ao Documento de Crédito podem ser encaminhadas até o dia útil imediato"
+      - compensacao_integrada:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "na compensação integrada de pagamentos e recebimentos, observam-se as normas do Serviço de Compensação de Cheques"
+              - "à dependência centralizadora cabe remeter os documentos ao Serviço de Compensação"
+    creditos_obrigacoes_vinculadas:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "os valores em moeda estrangeira depositados no Banco Central registram-se e devem ser reajustados mensalmente"
+              - "os juros e ajustes monetários sobre os depósitos são apropriados a crédito de RENDAS DE CRÉDITOS VINCULADOS AO BANCO CENTRAL"
+    repasses_interfinanceiros:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "nos repasses a outras instituições, os créditos registram-se de conformidade com a natureza dos recursos"
+              - "a instituição deve adotar controles analíticos para identificar os devedores e características dos repasses"
+    relacoes_correspondentes:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "registra-se o fluxo de recursos realizados para atender aos objetivos do correspondente"
+              - "na elaboração de balancetes e balanços não é permitida a compensação de saldos devedores e credores"
+    recursos_transito_terceiros:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "entendem-se por recursos em trânsito de terceiros as transferências em processamento entre as dependências"
+              - "os recebimentos por conta de terceiros e sociedades ligadas não precedidos de registro em conta de compensação registram-se conforme tipo"
+    ordens_pagamento:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "as dependências devem manter controles que permitam a conferência das pendências"
+              - "a conta ORDENS DE PAGAMENTO expressa o saldo líquido das ordens entre dependências"
+    transferencias_internas_recursos:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "entende-se por transferências internas de recursos a movimentação entre dependências que não alterem direitos ou obrigações"
+              - "os débitos e créditos entre dependências contabilizam-se em DEPENDÊNCIAS NO PAÍS"
+    aplicacoes_moedas_estrangeiras:
+      - detalhes:
+          - norma: "Circ 2106 AN II item 11, Cta-Circ 3178 item 4"
+          - detalhes:
+              - "registra-se o valor dos depósitos efetuados no Banco Central devido a excessos de posição de câmbio"
+    disposicoes_gerais:
+      - detalhes:
+          - norma: "Circ 1273"
+          - detalhes:
+              - "transferências interdependências efetuadas por sistema automatizado podem utilizar a conta DEPENDÊNCIAS NO PAÍS"
+              - "a instituição deve manter controles analíticos para identificar pendências que integram os saldos"
