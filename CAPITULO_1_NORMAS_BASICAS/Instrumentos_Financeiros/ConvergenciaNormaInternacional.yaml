@@ -1,0 +1,90 @@
+convergencia_normas:
+  secao_2_1:
+    titulo: "Convergência à Norma Internacional"
+    conteudo:
+      - data_inicio: "1º de janeiro de 2025"
+      - obrigacoes:
+          - descricao: "Observar os conceitos e critérios contábeis para instrumentos financeiros e contabilidade de hedge."
+            resolucao: "CMN nº 4.966, de 25 de novembro de 2021"
+      - plano:
+          - descricao: "Elaborar e remeter plano para implementação da regulamentação até 30 de junho de 2022."
+            resolucao: "CMN 4966, art 76"
+          - requisitos:
+              - aprovacao: "Conselho de administração ou diretoria."
+              - divulgacao: "Notas explicativas relativas ao exercício de 2022."
+      - demonstracoes:
+          - descricao: "Faculdade para elaboração e divulgação de demonstrações financeiras consolidadas."
+            resolucao: "CMN 4966, art 77"
+          - validade: "Até exercício de 2024."
+          - aplicabilidade: "Inclui demonstrações para períodos inferiores a 1 ano."
+      - divulgacao:
+          - descricao: "Divulgar impactos estimados da implementação da regulação contábil nas notas explicativas do exercício de 2024."
+            resolucao: "CMN 4966, art 78"
+      - excecoes:
+          - descricao: "Não se aplica a administradoras de consórcio e instituições de pagamento."
+            resolucao: "CMN 4966, art 1º § 1º"
+
+instrumentos_financeiros:
+  secao_2_2:
+    titulo: "Instrumentos Financeiros"
+    disponibilidades:
+      caixa:
+        - diferencas_numerario:
+            menor:
+              - conta: "DEVEDORES DIVERSOS - PAÍS"
+              - transferencia: "PERDAS DE CAPITAL após tentativa de recuperação."
+            maior:
+              - conta: "CREDORES DIVERSOS - PAÍS"
+              - transferencia: "GANHOS DE CAPITAL."
+        - cheques_nao_compor_saldo: "Circ 1273"
+        - recebimentos_pagamentos: "Não podem ser pós-datados. Circ 1273"
+        - conferencia_saldo: "Mínimo por balancetes e balanços. Circ 1273"
+      reservas_livres:
+        - reclassificacao: "BANCO CENTRAL - RESERVAS LIVRES EM ESPÉCIE. Circ 1273"
+      moedas_estrangeiras:
+        - contabilizacao: "Disponibilidades em moedas estrangeiras. Circ 1273"
+        - saldos_a_descoberto: "OBRIGAÇÕES EM MOEDAS ESTRANGEIRAS. Circ 2106, Cta-Circ 3178"
+        - conferencia_periodica: "Inclui todas as dependências. Circ 2106, Cta-Circ 3178"
+    operacoes_interfinanceiras:
+      - classificacao_titulos:
+          categorias:
+            - negociacao
+            - disponiveis_venda
+            - mantidos_vencimento
+      - ajuste_valor_mercado:
+          metodologia:
+            - preco_medio
+            - valor_liquido_realizacao
+            - preco_instrumento_semelhante
+
+    derivativos:
+      - registro_operacoes:
+          - a_termo: "Valor final contratado - difereça entre valor e preço à vista."
+          - opcoes: "Prêmios pagos/recebidos registrados no ativo ou passivo."
+          - futuro: "Ajustes diários registrados no ativo ou passivo."
+          - swap: "Diferenciais registrados no ativo ou passivo."
+      - hedge:
+          tipos:
+            - mercado
+            - fluxo_caixa
+          condicoes:
+            - documentacao
+            - efetividade (80%-125%)
+            - prazo equivalente
+
+  secao_2_3:
+    titulo: "Derivativos de Crédito"
+    definicoes:
+      - swap_credito:
+          ativo: "Valor pago/pagar por taxa de proteção."
+          passivo: "Valor recebido/receber por recepção de risco."
+      - swap_taxa_retorno:
+          ativo: "Valor a receber como receita."
+          passivo: "Valor a pagar como despesa."
+    eventos:
+      - ocorrencia_credito:
+          baixa: "Transferência de ativo ajustado por provisão."
+    criterios_gerais:
+      - controle_interno: "Identificar detalhes de ativos, emissores e características. Circ 1273"
+      - provisao: "Valores não realizáveis registrados. Circ 1273"
+      - ajuste_valor_mercado: "Ganhos/perdas compensadas dentro do semestre. Circ 3023"
