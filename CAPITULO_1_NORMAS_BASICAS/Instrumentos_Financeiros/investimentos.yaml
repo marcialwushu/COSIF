@@ -1,0 +1,44 @@
+InstrumentosFinanceiros:
+  Seção2_7:
+    Nome: Investimentos Mantidos para Venda
+    Regras:
+      - Regra: |
+          Os investimentos em coligadas, controladas e controladas em conjunto avaliados pelo método de equivalência patrimonial que a instituição decide realizá-los pela sua venda, estejam disponíveis para venda imediata e cuja alienação seja altamente provável devem ser mensurados, a partir da data em que a instituição decidir vendê-los, pelo menor valor entre:
+          - o valor contábil líquido do ativo, deduzidas as provisões para perdas por redução ao valor recuperável.
+          - o valor justo do ativo, avaliado conforme o disposto na regulamentação específica, líquido de despesas de vendas.
+      - Exceção: O disposto nesta subseção não se aplica às administradoras de consórcio e às instituições de pagamento autorizadas a funcionar pelo Banco Central do Brasil.
+
+  Seção2_8:
+    Nome: Participações Societárias
+    Regras:
+      - Regra: "Registram-se como participações societárias as aquisições de ações e cotas de capital de empresa de interesse socioeconômico da região, vinculadas a projetos de investimentos ou planos de assistência financeira."
+      - Limitação: "As participações societárias devem ter caráter minoritário, sendo consideradas investimentos temporários, vedadas as aplicações em caráter permanente."
+      - Segregação: "As participações em sociedades em regime falimentar, de liquidação, de intervenção ou em projetos paralisados devem ser segregadas no subtítulo de uso interno Participações em Sociedades em Regime Especial da conta PARTICIPAÇÕES SOCIETÁRIAS."
+      - Dividendo: "Os dividendos e outros rendimentos de títulos representativos de participações societárias contabilizam-se como diminuição do valor de custo, se recebidos até 6 meses da data de aquisição do título, e em RENDAS DE PARTICIPAÇÕES SOCIETÁRIAS, se recebidos após esse prazo."
+
+  Seção2_9:
+    Nome: Recursos de Depósitos, Aceites Cambiais, Letras Imobiliárias e Hipotecárias, Debêntures, Empréstimos e Repasses
+    SubSeções:
+      Depósitos_a_Vista:
+        Regras:
+          - "Conceituam-se como de livre movimentação os depósitos à vista mantidos por pessoas físicas e jurídicas de direito público e privado."
+          - "Os cheques visados, para caracterizar o adequado bloqueio ou indisponibilidade de recursos, contabilizam-se no subtítulo impessoal de uso interno Cheques Visados."
+      Depósitos_a_Prazo:
+        Regras:
+          - "Os depósitos a prazo, com ou sem emissão de certificado, quando não liquidados no vencimento, devem ser transferidos imediatamente para DEPÓSITOS VINCULADOS."
+          - "Os controles contábeis e extracontábeis devem permitir a apuração da exata posição dos depósitos captados, valores, depositantes, vencimento e despesas apropriadas em cada período mensal."
+      Depósitos_de_Poupança:
+        Regras:
+          - "Por ocasião dos balancetes/balanços a instituição deve proceder ao registro dos encargos \"pro rata temporis\" relativos ao período compreendido entre a data do depósito ou o \"dia de aniversário\" de cada conta e a data do balancete/balanço."
+
+  Seção2_10:
+    Nome: Outras Obrigações
+    SubSeções:
+      Contribuições_a_Recolher:
+        Regras:
+          - "Os impostos e contribuições a recolher, devidos pela instituição ou retidos na fonte, registram-se em IMPOSTOS E CONTRIBUIÇÕES A RECOLHER, utilizando-se subtítulo de uso interno específico, segundo a natureza."
+          - "A instituição deve manter controles internos sobre cada um dos impostos e contribuições a recolher."
+      Cheques_Administrativos:
+        Regras:
+          - "Os cheques emitidos contra a própria caixa, para liquidações de obrigações da instituição, registram-se em CHEQUES ADMINISTRATIVOS."
+          - "A emissão de cheques administrativos deve ser sempre nominativa."
